@@ -9,7 +9,7 @@ class Song
   end 
   
   def self.count 
-    @count
+    @@count
   end 
   
   attr_accessor :name 
