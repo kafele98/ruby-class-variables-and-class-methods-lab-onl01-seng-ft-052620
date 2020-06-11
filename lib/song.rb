@@ -12,6 +12,10 @@ class Song
     @@count
   end 
   
+  def artists 
+    @artist 
+  end 
+  
   attr_accessor :name 
   
   attr_accessor :artist 
