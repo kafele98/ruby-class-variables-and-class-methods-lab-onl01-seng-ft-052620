@@ -14,6 +14,7 @@ class Song
   
   def artists 
     @@artist 
+    puts @@artist 
   end 
   
   attr_accessor :name 
