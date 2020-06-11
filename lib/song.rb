@@ -9,7 +9,7 @@ class Song
     @@song_count
   end 
   
-  attr_acessor :name 
+  attr_accessor :name 
   
   attr_accessor :artist 
   
